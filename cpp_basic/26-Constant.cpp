@@ -37,7 +37,7 @@ int main()
     int *const ptr2 = &x; // ptr2 is constant, address can not be changed
     //ptr2=&y; //this is not allowed
 
-    const int const *ptr3 = &x; // data and pointer are both const
+    const int * const ptr3 = &x; // data and pointer are both const
 
     return 0;
 }
